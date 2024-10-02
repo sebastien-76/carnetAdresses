@@ -14,6 +14,7 @@ class AppFixtures extends Fixture
             $this->createContact('Maillet', 'Sébastien', '0612345678'),
             $this->createContact('Dupont', 'Jean', '0123456789'),
             $this->createContact('Durand', 'Marie', '0212345678'),
+            $this->createContact('Toto', 'Titi', '0212345678'),
         ];
 
         foreach ($contacts as $contact) {
